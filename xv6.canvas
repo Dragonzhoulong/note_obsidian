@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"磁盘","id":"ed6601e1cdf529ce","x":-500,"y":-240,"width":80,"height":60,"color":"5"},
+		{"type":"text","text":"日志","id":"d306ccf0106642ba","x":-180,"y":-240,"width":80,"height":60,"color":"5"},
+		{"type":"text","text":"缓存区","id":"74230af68ab5a1de","x":-360,"y":-240,"width":120,"height":60,"color":"5"},
+		{"type":"text","text":"inode","id":"fbb414802f0e2131","x":0,"y":-235,"width":140,"height":50}
+	],
+	"edges":[
+		{"id":"184cc885b64e1e83","fromNode":"ed6601e1cdf529ce","fromSide":"right","toNode":"74230af68ab5a1de","toSide":"left"},
+		{"id":"da4394b48289f893","fromNode":"74230af68ab5a1de","fromSide":"right","toNode":"d306ccf0106642ba","toSide":"left"},
+		{"id":"cf3033378e3d4503","fromNode":"d306ccf0106642ba","fromSide":"right","toNode":"fbb414802f0e2131","toSide":"left"}
+	]
+}
